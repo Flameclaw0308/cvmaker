@@ -30,7 +30,15 @@ function Body() {
     [sections.workExp]: {
       id: sections.workExp,
       sectionTitle: sections.workExp,
-      details: [],
+      details: [
+        {
+          title:""
+        }
+        ,
+        {
+          title:""
+        }
+      ],
     },
     [sections.project]: {
       id: sections.project,
