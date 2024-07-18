@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { forwardRef, useEffect, useRef, useState } from "react";
 import {
   AtSign,
@@ -294,7 +295,7 @@ const Resume = forwardRef((props, ref) => {
 
   useEffect(() => {
     swapSourceTarget(source, target);
-  }, [source]);
+  }, [source, swapSourceTarget, target]);
 
   useEffect(() => {
     const container = containerRef.current;
